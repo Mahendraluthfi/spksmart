@@ -52,7 +52,11 @@ class Proses extends CI_Controller {
 			foreach ($get_nilai2 as $data_nilai) {
 				$param_a = $get_cmax->cmax - $data_nilai->bobot_wj;
 				$param_b = $get_cmax->cmax - $get_cmin->cmin;
-				$result = $param_a / $param_b;
+				if ($param_a == 0 || $param_b == 0) {
+					$result = 0;
+				}else{
+					$result = $param_a / $param_b;
+				}
 				$this->db->where('id', $data_nilai->id);
 				$this->db->update('nilai', array(
 					'param_a' => $param_a,
