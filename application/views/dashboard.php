@@ -1,0 +1,3 @@
+<h3>Dashboard</h3>
+<hr>
+<p class="text-justify">Metode SMART (Simple Multi Attribute Rating Technique) merupakan metode pengambilan keputusan multi kriteria yang dikembangkan oleh Edward pada tahun 1977. Teknik pengambilan keputusan multi kriteria ini didasarkan pada teori bahwa setiap alternatif terdiri dari sejumlah kriteria yang memiliki nilai-nilai dan setiap kriteria memiliki bobot yang menggambarkan seberapa penting ia dibandingkan dengan kriteria lain.</p>
